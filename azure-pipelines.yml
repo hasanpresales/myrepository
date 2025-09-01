@@ -23,7 +23,7 @@ steps:
     strUrl: 'https://hvp.akeyless.io'
     ignoreCertificateChecks: true
     useProxy: 'none'
-    strToken: 'p-20fdqvcnw5cuam..N8ELackgObo8eOL6kB2SASJdSJlZhKrkdhVCFu7kx6c='
+    strToken: 'p-1s34olfa2bzpam..hhWwUE0sEU9Lp4rRcSsFPbVLAkVtnddl5RMoJ+ThtTQ='
     strKVEnginePath: '/secret/data'
     strSecretPath: '/MySecret1'
     kvVersion: 'v2'

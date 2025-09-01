@@ -20,11 +20,12 @@ steps:
 - task: VaultReadKV@5
   inputs:
     strAuthType: 'clientToken'
-    strUrl: 'https://web.ciphertrustmanager.local/akeyless-console'
+    strUrl: 'https://172.16.31.35/akeyless-hvp'
     ignoreCertificateChecks: true
     useProxy: 'none'
     strToken: 'accessid:p-20fdqvcnw5cuam..access_key:N8ELackgObo8eOL6kB2SASJdSJlZhKrkdhVCFu7kx6c='
-    strKVEnginePath: '/MySecret1'
+    strKVEnginePath: '/secret/data'
+    strSecretPath: '/MySecret1'
     kvVersion: 'v1'
     strPrefixType: 'custom'
     replaceCR: false

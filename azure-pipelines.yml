@@ -20,7 +20,7 @@ steps:
 - task: VaultReadKV@5
   inputs:
     strAuthType: 'clientToken'
-    strUrl: 'https://web.ciphertrustmanager.local/akeyless-hvp'
+    strUrl: 'https://web.ciphertrustmanager.local/akeyless-api'
     ignoreCertificateChecks: true
     useProxy: 'none'
     strToken: 'accessid:p-20fdqvcnw5cuam..access_key:N8ELackgObo8eOL6kB2SASJdSJlZhKrkdhVCFu7kx6c='

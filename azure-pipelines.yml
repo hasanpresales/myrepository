@@ -17,3 +17,14 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: VaultReadKV@5
+  inputs:
+    strAuthType: 'clientToken'
+    strUrl: 'https://hvp.akeyless.io'
+    ignoreCertificateChecks: true
+    useProxy: 'none'
+    strToken: '"accessid:p-20fdqvcnw5cuam".."access_key:N8ELackgObo8eOL6kB2SASJdSJlZhKrkdhVCFu7kx6c="'
+    strKVEnginePath: 'secret/data'
+    kvVersion: 'v2'
+    strPrefixType: 'custom'
+    replaceCR: false

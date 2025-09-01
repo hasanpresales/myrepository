@@ -20,7 +20,7 @@ steps:
 - task: VaultReadKV@5
   inputs:
     strAuthType: 'clientToken'
-    strUrl: 'https://172.16.31.35/akeyless-hvp'
+    strUrl: 'https://hvp.akeyless.io'
     ignoreCertificateChecks: true
     useProxy: 'none'
     strToken: 'accessid:p-20fdqvcnw5cuam..access_key:N8ELackgObo8eOL6kB2SASJdSJlZhKrkdhVCFu7kx6c='

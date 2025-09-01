@@ -26,6 +26,6 @@ steps:
     strToken: 'p-1s34olfa2bzpam..hhWwUE0sEU9Lp4rRcSsFPbVLAkVtnddl5RMoJ+ThtTQ='
     strKVEnginePath: '/secret/data'
     strSecretPath: '/MySecret1'
-    kvVersion: 'v2'
+    kvVersion: 'v1'
     strPrefixType: 'custom'
     replaceCR: false
